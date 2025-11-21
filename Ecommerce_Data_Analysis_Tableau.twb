@@ -1,0 +1,1246 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ecommerce_reviews_main (ecommerce_reviews)' inline='true' name='federated.16lustz1bbjzd41h41jfc0cmvc5l' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ecommerce_reviews' name='excel-direct.1ktwxdg19i311v11rf7790qwgvgm'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/End_to_end project/E-commerce_Product_Review_&amp;_Rating_Analysis-20250911T145949Z-1-001/E-commerce_Product_Review_&amp;_Rating_Analysis/ecommerce_reviews.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1ktwxdg19i311v11rf7790qwgvgm' name='ecommerce_reviews_main' table='[ecommerce_reviews_main$]' type='table'>
+          <columns gridOrigin='A1:AG10001:no:A1:AG10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='ReviewID' ordinal='0' />
+            <column datatype='string' name='CustomerID' ordinal='1' />
+            <column datatype='string' name='CustomerName' ordinal='2' />
+            <column datatype='string' name='Gender' ordinal='3' />
+            <column datatype='integer' name='Age' ordinal='4' />
+            <column datatype='string' name='Age_Group' ordinal='5' />
+            <column datatype='string' name='Email' ordinal='6' />
+            <column datatype='string' name='Ph1Number' ordinal='7' />
+            <column datatype='string' name='City' ordinal='8' />
+            <column datatype='string' name='State' ordinal='9' />
+            <column datatype='integer' name='Pincode' ordinal='10' />
+            <column datatype='string' name='ProductID' ordinal='11' />
+            <column datatype='string' name='ProductName' ordinal='12' />
+            <column datatype='string' name='Category' ordinal='13' />
+            <column datatype='string' name='SubCategory' ordinal='14' />
+            <column datatype='string' name='Brand' ordinal='15' />
+            <column datatype='date' name='PurchaseDate' ordinal='16' />
+            <column datatype='date' name='DeliveryDate' ordinal='17' />
+            <column datatype='string' name='DeliveryStatus' ordinal='18' />
+            <column datatype='string' name='PaymentMode' ordinal='19' />
+            <column datatype='string' name='OrderAmount' ordinal='20' />
+            <column datatype='integer' name='Order_Amount' ordinal='21' />
+            <column datatype='string' name='Discount' ordinal='22' />
+            <column datatype='string' name='FinalAmount' ordinal='23' />
+            <column datatype='integer' name='Final_Amount' ordinal='24' />
+            <column datatype='integer' name='Rating' ordinal='25' />
+            <column datatype='string' name='ReviewTitle' ordinal='26' />
+            <column datatype='string' name='ReviewText' ordinal='27' />
+            <column datatype='string' name='Sentiment' ordinal='28' />
+            <column datatype='string' name='ReturnReason' ordinal='29' />
+            <column datatype='string' name='CustomerSegment' ordinal='30' />
+            <column datatype='string' name='ComplaintRaised' ordinal='31' />
+            <column datatype='string' name='ResolutionStatus' ordinal='32' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AG10001:no:A1:AG10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReviewID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ReviewID]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ReviewID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustomerID]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>CustomerID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustomerName]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>CustomerName</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age_Group</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Age_Group]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Age_Group</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Email</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Email]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Email</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ph1Number</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Ph1Number]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Ph1Number</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pincode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Pincode]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Pincode</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProductID]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ProductID</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ProductName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ProductName]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ProductName</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SubCategory</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[SubCategory]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>SubCategory</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PurchaseDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[PurchaseDate]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>PurchaseDate</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DeliveryDate</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DeliveryDate]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>DeliveryDate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DeliveryStatus</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[DeliveryStatus]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>DeliveryStatus</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PaymentMode</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[PaymentMode]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>PaymentMode</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OrderAmount</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OrderAmount]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>OrderAmount</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order_Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order_Amount]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Order_Amount</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Discount</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Discount]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Discount</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FinalAmount</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[FinalAmount]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>FinalAmount</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Final_Amount</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Final_Amount]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Final_Amount</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rating</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rating]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Rating</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReviewTitle</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ReviewTitle]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ReviewTitle</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReviewText</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ReviewText]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ReviewText</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sentiment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sentiment]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>Sentiment</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReturnReason</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ReturnReason]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ReturnReason</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CustomerSegment</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[CustomerSegment]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>CustomerSegment</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ComplaintRaised</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ComplaintRaised]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ComplaintRaised</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ResolutionStatus</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ResolutionStatus]</local-name>
+            <parent-name>[ecommerce_reviews_main]</parent-name>
+            <remote-alias>ResolutionStatus</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Age Group' datatype='string' name='[Age_Group]' role='dimension' type='nominal' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Complaint Raised' datatype='string' name='[ComplaintRaised]' role='dimension' type='nominal' />
+      <column caption='Customer ID' datatype='string' name='[CustomerID]' role='dimension' type='nominal' />
+      <column caption='Customer Name' datatype='string' name='[CustomerName]' role='dimension' type='nominal' />
+      <column caption='Customer Segment' datatype='string' name='[CustomerSegment]' role='dimension' type='nominal' />
+      <column caption='Delivery Date' datatype='date' name='[DeliveryDate]' role='dimension' type='ordinal' />
+      <column caption='Delivery Status' datatype='string' name='[DeliveryStatus]' role='dimension' type='nominal' />
+      <column caption='Final Amount' datatype='string' name='[FinalAmount]' role='dimension' type='nominal' />
+      <column caption='Final Amount1' datatype='integer' name='[Final_Amount]' role='measure' type='quantitative' />
+      <column caption='Order Amount' datatype='string' name='[OrderAmount]' role='dimension' type='nominal' />
+      <column caption='Order Amount1' datatype='integer' name='[Order_Amount]' role='measure' type='quantitative' />
+      <column caption='Payment Mode' datatype='string' name='[PaymentMode]' role='dimension' type='nominal' />
+      <column caption='Product ID' datatype='string' name='[ProductID]' role='dimension' type='nominal' />
+      <column caption='Product Name' datatype='string' name='[ProductName]' role='dimension' type='nominal' />
+      <column caption='Purchase Date' datatype='date' name='[PurchaseDate]' role='dimension' type='ordinal' />
+      <column caption='Resolution Status' datatype='string' name='[ResolutionStatus]' role='dimension' type='nominal' />
+      <column caption='Return Reason' datatype='string' name='[ReturnReason]' role='dimension' type='nominal' />
+      <column caption='Review ID' datatype='string' name='[ReviewID]' role='dimension' type='nominal' />
+      <column caption='Review Text' datatype='string' name='[ReviewText]' role='dimension' type='nominal' />
+      <column caption='Review Title' datatype='string' name='[ReviewTitle]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Sub Category' datatype='string' name='[SubCategory]' role='dimension' type='nominal' />
+      <column caption='ecommerce_reviews_main' datatype='table' name='[__tableau_internal_object_id__].[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='State, City'>
+          <field>[State]</field>
+          <field>[City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_05o3jhs0ovhgdl14lgyry1j5pp0o.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/10/2025 02:59:32 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>ReviewID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ReviewID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ReviewID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>306000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CustomerID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CustomerID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CustomerID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>208984</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CustomerName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CustomerName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CustomerName</remote-alias>
+              <ordinal>2</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>241333</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>3</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>4</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>73</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age_Group</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Age_Group]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age_Group</remote-alias>
+              <ordinal>5</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Email</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Email]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Email</remote-alias>
+              <ordinal>6</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>286588</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Ph1Number</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Ph1Number]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Ph1Number</remote-alias>
+              <ordinal>7</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>306000</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>City</remote-alias>
+              <ordinal>8</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>9</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Pincode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Pincode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Pincode</remote-alias>
+              <ordinal>10</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>295225</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ProductID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ProductID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ProductID</remote-alias>
+              <ordinal>11</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>140314</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ProductName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ProductName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ProductName</remote-alias>
+              <ordinal>12</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>354</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>13</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SubCategory</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SubCategory]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SubCategory</remote-alias>
+              <ordinal>14</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Brand</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Brand]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Brand</remote-alias>
+              <ordinal>15</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>39</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PurchaseDate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[PurchaseDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PurchaseDate</remote-alias>
+              <ordinal>16</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>2606</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DeliveryDate</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[DeliveryDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DeliveryDate</remote-alias>
+              <ordinal>17</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3006</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DeliveryStatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[DeliveryStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DeliveryStatus</remote-alias>
+              <ordinal>18</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PaymentMode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PaymentMode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PaymentMode</remote-alias>
+              <ordinal>19</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OrderAmount</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OrderAmount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OrderAmount</remote-alias>
+              <ordinal>20</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>92270</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order_Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order_Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order_Amount</remote-alias>
+              <ordinal>21</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>59990</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Discount</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Discount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Discount</remote-alias>
+              <ordinal>22</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>136</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FinalAmount</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[FinalAmount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FinalAmount</remote-alias>
+              <ordinal>23</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>284449</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Final_Amount</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Final_Amount]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Final_Amount</remote-alias>
+              <ordinal>24</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>51810</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Rating</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rating]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rating</remote-alias>
+              <ordinal>25</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ReviewTitle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ReviewTitle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ReviewTitle</remote-alias>
+              <ordinal>26</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ReviewText</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ReviewText]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ReviewText</remote-alias>
+              <ordinal>27</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1602</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sentiment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sentiment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sentiment</remote-alias>
+              <ordinal>28</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ReturnReason</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ReturnReason]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ReturnReason</remote-alias>
+              <ordinal>29</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CustomerSegment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CustomerSegment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CustomerSegment</remote-alias>
+              <ordinal>30</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ComplaintRaised</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ComplaintRaised]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ComplaintRaised</remote-alias>
+              <ordinal>31</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ResolutionStatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ResolutionStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ResolutionStatus</remote-alias>
+              <ordinal>32</ordinal>
+              <family>ecommerce_reviews_main</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='ecommerce_reviews_main' id='ecommerce!reviews!main_0205E576AC6041E3A809996961E9D1D5'>
+            <properties context=''>
+              <relation connection='excel-direct.1ktwxdg19i311v11rf7790qwgvgm' name='ecommerce_reviews_main' table='[ecommerce_reviews_main$]' type='table'>
+                <columns gridOrigin='A1:AG10001:no:A1:AG10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='ReviewID' ordinal='0' />
+                  <column datatype='string' name='CustomerID' ordinal='1' />
+                  <column datatype='string' name='CustomerName' ordinal='2' />
+                  <column datatype='string' name='Gender' ordinal='3' />
+                  <column datatype='integer' name='Age' ordinal='4' />
+                  <column datatype='string' name='Age_Group' ordinal='5' />
+                  <column datatype='string' name='Email' ordinal='6' />
+                  <column datatype='string' name='Ph1Number' ordinal='7' />
+                  <column datatype='string' name='City' ordinal='8' />
+                  <column datatype='string' name='State' ordinal='9' />
+                  <column datatype='integer' name='Pincode' ordinal='10' />
+                  <column datatype='string' name='ProductID' ordinal='11' />
+                  <column datatype='string' name='ProductName' ordinal='12' />
+                  <column datatype='string' name='Category' ordinal='13' />
+                  <column datatype='string' name='SubCategory' ordinal='14' />
+                  <column datatype='string' name='Brand' ordinal='15' />
+                  <column datatype='date' name='PurchaseDate' ordinal='16' />
+                  <column datatype='date' name='DeliveryDate' ordinal='17' />
+                  <column datatype='string' name='DeliveryStatus' ordinal='18' />
+                  <column datatype='string' name='PaymentMode' ordinal='19' />
+                  <column datatype='string' name='OrderAmount' ordinal='20' />
+                  <column datatype='integer' name='Order_Amount' ordinal='21' />
+                  <column datatype='string' name='Discount' ordinal='22' />
+                  <column datatype='string' name='FinalAmount' ordinal='23' />
+                  <column datatype='integer' name='Final_Amount' ordinal='24' />
+                  <column datatype='integer' name='Rating' ordinal='25' />
+                  <column datatype='string' name='ReviewTitle' ordinal='26' />
+                  <column datatype='string' name='ReviewText' ordinal='27' />
+                  <column datatype='string' name='Sentiment' ordinal='28' />
+                  <column datatype='string' name='ReturnReason' ordinal='29' />
+                  <column datatype='string' name='CustomerSegment' ordinal='30' />
+                  <column datatype='string' name='ComplaintRaised' ordinal='31' />
+                  <column datatype='string' name='ResolutionStatus' ordinal='32' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{5B95D6C9-97D0-4CA5-AD10-957AED236A24}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4B8BFBB0-E435-4F6C-BAF8-4B4564CA72C4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
+      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
+      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
+      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
+      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
+      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
+      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
+      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
+      fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
