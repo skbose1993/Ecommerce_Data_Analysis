@@ -4,6 +4,7 @@ End-to-end Ecommerce Data Analysis project using Python, SQL, Excel and Tableau.
 
 ⭐ Overview
 
+
 This project demonstrates a complete data analytics workflow using a real-world ecommerce dataset containing 306,000+ customer transactions.
 
 The goal is to uncover business insights related to customer behavior, product performance, sentiment, payments, order status, and more.
@@ -26,11 +27,13 @@ The project covers the full analytics lifecycle:
 
 📁 Dataset
 
+
 •	Rows: 306,000
 
 •	Columns: 33
 
 •	Data Includes:
+
 
 o	Customer demographics
 
@@ -48,6 +51,7 @@ o	Revenue, discount
 
 •	Files:
 
+
 o	Ecommerce_Data_Analysis.ipynb
 
 o	Ecommerce_Data_Analysis_Excel.xlsx
@@ -58,7 +62,9 @@ o	Ecommerce-Data-Analysis(Presentation).pdf
 
 🛠 Tools & Technologies
 
+
 Step	                           Tool
+
 
 Data loading, EDA, cleaning :	Python (Pandas, NumPy, Matplotlib)
 
@@ -73,6 +79,7 @@ Presentation :	Gamma App
 Version control :	Git & GitHub
 
 📈 Key Results & Insights
+
 
 •	Gender & age segments show strong influence on purchase behavior
 
